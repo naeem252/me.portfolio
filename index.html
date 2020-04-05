@@ -7,7 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
           rel="stylesheet">
+    <!--    <link rel="stylesheet" href="css/webslides.css">-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width:768px) and (min-width:601px)" href="css/tab-screen.css">
     <link rel="stylesheet" media="screen and (max-width:600px)" href="css/smartphone.css">
     <title>Gsmith</title>
 </head>
@@ -25,37 +27,37 @@
     </h4>
     <ul class="nav-bar">
         <li>
-            <a href="#" class="active">
+            <a href="#" class="active" data-id="home">
                 <i class="fas fa-home"></i> home
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" data-id="about-me">
                 <i class="fas fa-user"></i> about me
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#resume">
                 <i class="fas fa-address-card"></i> resume
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#service">
                 <i class="fas fa-tools"></i> service
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#portfolio">
                 <i class="far fa-images"></i> portfolio
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#testimonial">
                 <i class="fas fa-user-edit"></i> testimonial
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#contact">
                 <i class="fas fa-envelope"></i> contact
             </a>
         </li>
@@ -73,20 +75,107 @@
     </footer>
 </nav>
 <main>
-    <section id="home">
+    <section id="home" style="">
         <div class="home-content">
             <span>Hello,I'm</span>
             <h1>Naeem Hasan</h1>
             <span>i am a UI/UX Designer</span>
             <br>
-            <a href="#" class="btn hire">hire me</a>
+            <a href="#" class="btn hire btn-light">hire me</a>
         </div>
+    </section>
+    <section id="about-me">
+        <h4 class="heading">
+            about me
+        </h4>
+        <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam non odit quisquam, similique tenetur
+        </p>
+
+        <div class="about-content">
+            <div class="img-container">
+                <img src="img/me.jpg" alt="me">
+            </div>
+            <div>
+                <h4>naeem hasan</h4>
+                <span>UI/UX Designer</span>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet architecto, aspernatur atque
+                    beatae, cumque dolore, ducimus facere ipsam labore non nulla odio odit quae quibusdam recusandae
+                </p>
+                <p class="paragraph second-content-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque eveniet labore recusandae sed?
+                </p>
+                <a href="#" class="btn download btn-bg">
+                    download CV
+                </a>
+                <a href="#" class="btn hire btn-light">Hire Me</a>
+            </div>
+        </div>
+
+        <footer class="about-footer">
+            <div class="my-journey">
+                <h4 class="journey-heading">My Journey</h4>
+                <div>
+                    <div class="journey">
+                        <p class="journey-icon"><i class="fas fa-medal"></i></p>
+                        <p>
+                            <span>4 Years job</span>
+                            <span class="text-highlight">experience</span>
+                        </p>
+                    </div>
+                    <div class="journey">
+                        <p class="journey-icon"><i class="fas fa-medal"></i></p>
+                        <p>
+                            <span>4 Years job</span>
+                            <span class="text-highlight">experience</span>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="journey">
+                        <p class="journey-icon"><i class="fas fa-medal"></i></p>
+                        <p>
+                            <span>4 Years job</span>
+                            <span class="text-highlight">experience</span>
+                        </p>
+                    </div>
+                    <div class="journey">
+                        <p class="journey-icon"><i class="fas fa-medal"></i></p>
+                        <p>
+                            <span>4 Years job</span>
+                            <span class="text-highlight">experience</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="my-interest">
+                <h4  class="journey-heading">My interest</h4>
+                <ul>
+                    <li>
+                        <i class="fas fa-headphones-alt"></i> Music
+                    </li>
+                    <li>
+                        <i class="fas fa-bus"></i> travel
+                    </li>
+                    <li>
+                        <i class="fas fa-film"></i> movie
+                    </li>
+                    <li>
+                        <i class="fas fa-photo-video"></i> photo
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
     </section>
 </main>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
+
 
 <script src="js/main.js"></script>
 </body>

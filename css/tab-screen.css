@@ -1,0 +1,68 @@
+
+
+/*==============
+    HOME
+==============*/
+section#home .home-content{
+    text-align: center;
+    /*line-height: 270%;*/
+    margin-left: 0;
+}
+section#home .home-content h1{
+    font-size: 5rem;
+    margin-top:0;
+}
+
+
+/*==============
+    ABOUT ME
+==============*/
+#about-me{
+    padding: 3rem;
+    height: 100vh;
+}
+#about-me > p{
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+.about-content .img-container{
+    margin-top: 3rem;
+    margin-right: 3rem;
+    height: 24rem;
+}
+.about-content{
+    position: relative;
+}
+
+.about-content h4{
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.about-content a{
+    /*display:block;*/
+    position: absolute;
+}
+.about-content a.hire{
+    right: 8px;
+    bottom: -61px;
+}
+.about-content a.download{
+    left: 188px;
+    bottom: -61px;
+}
+.about-content span{
+    font-size: 1.4rem;
+}
+.about-content .second-content-p{
+    display: block;
+}
+.about-content p{
+    margin-top: .5rem;
+}
+.about-footer{
+    display: none;
+
+}

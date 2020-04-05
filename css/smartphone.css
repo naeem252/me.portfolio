@@ -1,9 +1,20 @@
 /*utility*/
-
+.heading{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
 .hamberger{
     display: block;
     font-size: 3rem;
     opacity: .8;
+}
+
+.paragraph{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    line-height:160%;
 }
 
 /*==============
@@ -17,7 +28,7 @@
 
 nav {
     position: absolute;
-    z-index: 5;
+    z-index: 100;
     background: rgba(30, 39, 46, 0.84);
     transition: 0.4s ease-out;
     left: -60%;
@@ -39,6 +50,7 @@ section#home .home-content{
     text-align: center;
     /*line-height: 270%;*/
     margin-top: -25rem;
+    margin-left: 0;
 }
 section#home .home-content h1{
     font-size: 5rem;
@@ -47,4 +59,48 @@ section#home .home-content h1{
 }
 section#home .home-content span{
     font-size: 1.8rem;
+}
+
+/*==============
+    ABOUT ME
+==============*/
+#about-me{
+    padding: 2rem;
+    padding-top:1rem;
+    height: 100vh;
+}
+.about-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about-me > p{
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+.about-content .img-container{
+    margin-right: 0;
+    height: 20rem;
+}
+
+.about-content h4{
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.about-content span{
+    font-size: 1.4rem;
+}
+.about-content .second-content-p{
+    display: none;
+}
+.about-content p{
+    margin-top: .5rem;
+}
+.about-footer{
+    display: none;
+
 }
