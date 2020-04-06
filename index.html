@@ -7,11 +7,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
           rel="stylesheet">
+        
     <!--    <link rel="stylesheet" href="css/webslides.css">-->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="screen and (max-width:768px) and (min-width:601px)" href="css/tab-screen.css">
     <link rel="stylesheet" media="screen and (max-width:600px)" href="css/smartphone.css">
-    <title>Gsmith</title>
+    <title>Naeem Hasan </title>
 </head>
 <body>
 <div class="hamberger">
@@ -23,11 +24,11 @@
     </span>
     <h4 class="logo">
         <span class="text-highlight">N</span>aeem
-
+        <span class="sub-heading">full-stack developer</span>
     </h4>
     <ul class="nav-bar">
-        <li>
-            <a href="#" class="active" data-id="home">
+        <li class="active">
+            <a href="#" data-id="home">
                 <i class="fas fa-home"></i> home
             </a>
         </li>
@@ -37,27 +38,27 @@
             </a>
         </li>
         <li>
-            <a href="#resume">
-                <i class="fas fa-address-card"></i> resume
+            <a href="#skills" data-id="skills">
+                <i class="fas fa-address-card"></i> skills
             </a>
         </li>
         <li>
-            <a href="#service">
+            <a href="#service" data-id="services">
                 <i class="fas fa-tools"></i> service
             </a>
         </li>
         <li>
-            <a href="#portfolio">
+            <a href="#portfolio" data-id="portfolio">
                 <i class="far fa-images"></i> portfolio
             </a>
         </li>
         <li>
-            <a href="#testimonial">
+            <a href="#testimonial" data-id="testimonial">
                 <i class="fas fa-user-edit"></i> testimonial
             </a>
         </li>
         <li>
-            <a href="#contact">
+            <a href="#contact" data-id="contact">
                 <i class="fas fa-envelope"></i> contact
             </a>
         </li>
@@ -75,7 +76,8 @@
     </footer>
 </nav>
 <main>
-    <section id="home" style="">
+
+    <section id="home">
         <div class="home-content">
             <span>Hello,I'm</span>
             <h1>Naeem Hasan</h1>
@@ -88,7 +90,7 @@
         <h4 class="heading">
             about me
         </h4>
-        <p class="paragraph">
+        <p class="paragraph text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam non odit quisquam, similique tenetur
         </p>
 
@@ -98,7 +100,7 @@
             </div>
             <div>
                 <h4>naeem hasan</h4>
-                <span>UI/UX Designer</span>
+                <span><em>UI/UX Designer</em></span>
                 <p class="paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet architecto, aspernatur atque
                     beatae, cumque dolore, ducimus facere ipsam labore non nulla odio odit quae quibusdam recusandae
@@ -151,7 +153,7 @@
 
             </div>
             <div class="my-interest">
-                <h4  class="journey-heading">My interest</h4>
+                <h4 class="journey-heading">My interest</h4>
                 <ul>
                     <li>
                         <i class="fas fa-headphones-alt"></i> Music
@@ -170,11 +172,58 @@
         </footer>
 
     </section>
+
+    <section id="skills">
+        <h4 class="heading">skills</h4>
+        <p class="paragraph text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam non odit quisquam, similique tenetur
+        </p>
+        <div class="skill-container slider">
+            <div>
+                <div class="circle html">
+                    <strong></strong>
+                    <span>HTML</span>
+
+                </div>
+                <div class="circle css">
+                    <strong></strong>
+                    <span>CSS</span>
+
+                </div>
+                <div class="circle javascript">
+                    <strong></strong>
+                    <span>JavaScript</span>
+
+                </div>
+            </div>
+            <div>
+                <div class="circle php">
+                    <strong></strong>
+                    <span>PHP</span>
+
+                </div>
+                <div class="circle laravel">
+                    <strong></strong>
+                    <span>Laravel</span>
+
+                </div>
+                <div class="circle wordpress">
+                    <strong></strong>
+                    <span>Wordpress</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
+
+<script src="js/circle-progress.min.js"></script>
+
+
 
 
 <script src="js/main.js"></script>

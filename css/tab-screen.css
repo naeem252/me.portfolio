@@ -66,3 +66,57 @@ section#home .home-content h1{
     display: none;
 
 }
+
+/*==============
+    Skills
+==============*/
+
+
+#skills{
+ 
+    padding: 3rem;
+  
+  }
+  .skill-container{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  
+      margin-top:3rem;
+      padding-left: 2rem;
+  
+  }
+  .skill-container > div{
+      justify-content: space-between;
+      align-items: space-between;
+  }
+  .skill-container >div:first-child{
+      margin-bottom: 4rem;
+  }
+  /*for progress*/
+  
+  .circle {
+      margin-right:6rem;
+  
+  }
+  
+  .circle canvas {
+      vertical-align: top;
+  }
+  
+  .circle strong {
+      left: 65%;
+      top: 40%;
+      font-size: 25px;
+  }
+  
+  
+  .circle span {
+      display: block;
+      color: rgb(165, 165, 165);
+      margin-top: 12px;
+      margin-left: 2rem;
+      
+  }
+  
