@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c251a882-fcd0-4da7-889d-cf5d4d688361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/smartphone.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartphone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tab-screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tab-screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -42,6 +43,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Naeem\Desktop\gsmith\js" />
+      <recent name="C:\Users\Naeem\Desktop\gsmith\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,6 +82,9 @@
       <workItem from="1585715414105" duration="13411000" />
       <workItem from="1586150673412" duration="11514000" />
       <workItem from="1586169289078" duration="679000" />
+      <workItem from="1586524546531" duration="15519000" />
+      <workItem from="1586576839417" duration="368000" />
+      <workItem from="1586580193229" duration="2612000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,10 @@
 $(document).ready(function () {
+
 //    initial all section without home display none
+
     $('section').css('display', 'none');
 
-    $('#home').fadeIn('slow');
+    $('#services').fadeIn('slow');
 
 //    navigation toggle
     $('.hamberger').on('click', function (e) {
@@ -30,8 +32,29 @@ $(document).ready(function () {
                 progressBar();
             }
 
+            //    service slide making
+            if(id==='services'){
+
+                //    init if window in lessthan or equal 768
+                if(window.innerWidth<=768){
+                    if(window.innerWidth <=768 && window.innerWidth > 600){
+                        slickStart(2);
+                    }else{
+                        $('.swip-container').fadeIn('slow');
+                        setTimeout(()=>{
+                            $('.swip-container').fadeOut('slow');
+                        },1000);
+
+                        slickStart(1);
+                    }
+
+                }
+
+            }
+
+
         }
-    });
+    }); //end ul navigation
 //    nav close when width is <600 and click main element
 
     $('main').click(function () {
@@ -41,6 +64,25 @@ $(document).ready(function () {
             }, 500)
         }
     });
+
+
+//    init if window in lessthan or equal 768
+    if(window.innerWidth<=768){
+        if(window.innerWidth <=768 && window.innerWidth > 600){
+            slickStart(2);
+        }else{
+            $('.swip-container').fadeIn('slow');
+            setTimeout(()=>{
+                $('.swip-container').fadeOut('slow');
+            },3000);
+            slickStart(1);
+        }
+
+    }
+
+
+
+
 
 
 
@@ -186,4 +228,33 @@ function progressBar() {
     });//for wordpress
 
 
+}
+
+function slickStart(perSlide){
+    let allService='';
+
+
+    Array.from($('.service-row')).forEach((service) => {
+        allService+=$(service).html();
+        $(service).remove();
+    });
+    const div=document.createElement('div');
+    div.className='slick mySlide';
+    div.innerHTML=allService;
+    $('.service-container').append(div);
+
+    $('.mySlide').slick({
+        infinite: true,
+        slidesToShow: perSlide,
+        slidesToScroll: perSlide,
+        variableWidth: true,
+        dots:true
+    });
+
+    // width: 245px;
+    // margin-right: 30px;
+    // $('.slick-slide').css({
+    //     width:'245px',
+    //     marginRight:'3rem',
+    // });
 }

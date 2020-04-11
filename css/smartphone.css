@@ -142,4 +142,67 @@ section#home .home-content span{
       margin-top: 12px;
       margin-left: 5px;
   }
+
+
+
+/*==============
+  SERVICES
+==============*/
+
+#services{
+    padding: 2rem;
+    height: 100vh;
+    /*width: 100vh;*/
+    overflow: hidden;
+}
+.service-container{
+    position: relative;
+    margin-top: 5rem;
+}
+.service-row{
+    display: block;
+
+}
+.service {
+    margin:0 1rem;
+    /*margin-right: 1rem;*/
+    max-width: 100%;
+}
+
+
+.slick-slide{
+    width: 300px;
+    margin: 0 3rem;
+}
+
+
+.slick-prev{
+    left: -16px;
+}
+.slick-next{
+    right: -16px;
+}
+
+
+/*for swip gif*/
+
+.swip-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+
+.swip-container img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
   

@@ -97,7 +97,7 @@ section#home .home-content h1{
   /*for progress*/
   
   .circle {
-      margin-right:6rem;
+      margin-right:4rem;
   
   }
   
@@ -119,4 +119,35 @@ section#home .home-content h1{
       margin-left: 2rem;
       
   }
+
+
+
+/*==============
+  SERVICES
+==============*/
+
+#services{
+    padding: 3rem;
+    width: 76%;
+}
+.service-container{
+    position: relative;
+}
+.service-row{
+    display: block;
+
+}
+.service {
+    max-width: 100%;
+}
+
+
+.slick-slide{
+    width: 245px;
+    margin-right: 3rem;
+}
+
+
+
+
   
